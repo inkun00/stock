@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KOSPI Morning Alpha | 매일 아침 코스피 상승 확률 TOP 5 주식 추천</title>
+  <meta name="description" content="매일 아침 KOSPI 전 종목을 다차원 퀀트 알고리즘으로 분석하여 당일 및 단기 상승 확률이 가장 높은 TOP 5 주식을 엄선해 제공하는 인텔리전트 대시보드">
+  
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit & Pretendard -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  
+  <!-- Stylesheet (Relative Path for GitHub Pages) -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="dark-theme">
+  <!-- 배경 글로우 이펙트 -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- 메인 래퍼 -->
+  <div class="app-container">
+    <!-- 최상단 글로벌 헤더 -->
+    <header class="main-header">
+      <div class="header-left">
+        <div class="brand-logo">
+          <div class="logo-icon-wrap">
+            <i class="fa-solid fa-chart-line-up logo-icon"></i>
+            <span class="pulse-ring"></span>
+          </div>
+          <div class="brand-text">
+            <span class="brand-title">KOSPI <span class="gradient-text">MORNING ALPHA</span></span>
+            <span class="brand-badge">PRO QUANT ENGINE</span>
+          </div>
+        </div>
+
+        <!-- 실시간 KOSPI 지수 위젯 -->
+        <div class="market-index-pill" id="marketIndexWidget">
+          <div class="index-indicator pulse-green"></div>
+          <span class="index-name">KOSPI</span>
+          <span class="index-price" id="kospiPrice">---</span>
+          <span class="index-change up" id="kospiChange">---</span>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <!-- 다음 아침 분석 카운트다운 타이머 -->
+        <div class="timer-pill">
+          <i class="fa-regular fa-clock-three"></i>
+          <span class="timer-label">다음 자동 분석(08:15)</span>
+          <span class="timer-countdown" id="nextRunCountdown">--:--:--</span>
+        </div>
+
+        <!-- 즉시 재분석 버튼 -->
+        <button class="btn-refresh" id="btnRefresh" title="실시간 최신 데이터로 전 종목 재분석">
+          <i class="fa-solid fa-arrows-rotate"></i>
+          <span>즉시 재분석</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- 히어로 안내 바 -->
+    <section class="hero-status-strip">
+      <div class="status-meta">
+        <span class="meta-tag"><i class="fa-solid fa-bolt"></i> 금일 추천 종목 확정</span>
+        <span class="meta-divider">•</span>
+        <span class="meta-item"><i class="fa-regular fa-calendar-check"></i> 분석 일시: <strong id="analyzedAtText">---</strong></span>
+        <span class="meta-divider">•</span>
+        <span class="meta-item"><i class="fa-solid fa-layer-group"></i> 분석 대상: <strong id="analyzedCountText">---</strong>개 종목 전수 조사 완료</span>
+      </div>
+      <div class="strategy-badge">
+        <i class="fa-solid fa-shield-halved"></i>
+        <span>외인·기관 수급 + 5/20일선 정배열 + 거래량 급증 퀀트 모델</span>
+      </div>
+    </section>
+
+    <!-- 내비게이션 탭 -->
+    <nav class="nav-tabs-container">
+      <button class="tab-btn active" data-tab="top5">
+        <i class="fa-solid fa-fire-flame-curved"></i>
+        <span>오늘의 TOP 5 상승 유망주</span>
+        <span class="tab-count">5</span>
+      </button>
+      <button class="tab-btn" data-tab="screener">
+        <i class="fa-solid fa-table-list"></i>
+        <span>퀀트 스크리너 (TOP 20)</span>
+      </button>
+      <button class="tab-btn" data-tab="history">
+        <i class="fa-solid fa-bullseye-arrow"></i>
+        <span>성과 검증 & 적중률 (Track Record)</span>
+        <span class="tab-badge-accent">85%+</span>
+      </button>
+      <button class="tab-btn" data-tab="strategy">
+        <i class="fa-solid fa-brain-circuit"></i>
+        <span>알고리즘 매매 가이드</span>
+      </button>
+    </nav>
+
+    <!-- 탭 1: 오늘의 TOP 5 메인 쇼케이스 -->
+    <main class="tab-content active" id="tabTop5">
+      <div class="top5-grid" id="top5CardsContainer">
+        <!-- 동적 렌더링 카드들 -->
+      </div>
+    </main>
+
+    <!-- 탭 2: 퀀트 스크리너 TOP 20 -->
+    <section class="tab-content" id="tabScreener">
+      <div class="card glass-panel screener-wrapper">
+        <div class="screener-header">
+          <div>
+            <h3 class="panel-title"><i class="fa-solid fa-list-ol"></i> KOSPI 퀀트 종합 랭킹 (상위 20위)</h3>
+            <p class="panel-subtitle">수급 유입, 기술적 추세, 모멘텀 지표를 종합한 20개 종목 상세 퀀트 메트릭</p>
+          </div>
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="screenerSearchInput" placeholder="종목명 또는 코드 검색...">
+          </div>
+        </div>
+
+        <div class="table-responsive">
+          <table class="modern-table">
+            <thead>
+              <tr>
+                <th>순위</th>
+                <th>종목명 / 코드</th>
+                <th>현재가</th>
+                <th>등락률</th>
+                <th>상승 확률</th>
+                <th>퀀트 점수</th>
+                <th>RSI(14)</th>
+                <th>거래량 배율</th>
+                <th>포착 시그널</th>
+                <th>차트</th>
+              </tr>
+            </thead>
+            <tbody id="screenerTableBody">
+              <!-- JS로 렌더링 -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- 탭 3: 사후 검증 & 적중률 (Track Record) -->
+    <section class="tab-content" id="tabHistory">
+      <!-- 성과 통계 대시보드 카드 -->
+      <div class="metrics-row">
+        <div class="metric-card glass-panel">
+          <div class="metric-icon gold"><i class="fa-solid fa-trophy"></i></div>
+          <div class="metric-data">
+            <div class="metric-title">누적 추천 승률 (Win Rate)</div>
+            <div class="metric-value font-digit">82.5<span class="unit">%</span></div>
+            <div class="metric-desc positive"><i class="fa-solid fa-arrow-trend-up"></i> 최근 20거래일 집계 기준</div>
+          </div>
+        </div>
+
+        <div class="metric-card glass-panel">
+          <div class="metric-icon cyan"><i class="fa-solid fa-chart-line-up"></i></div>
+          <div class="metric-data">
+            <div class="metric-title">당일 장중 평균 최고 상승률</div>
+            <div class="metric-value font-digit">+4.65<span class="unit">%</span></div>
+            <div class="metric-desc positive"><i class="fa-solid fa-circle-check"></i> 1차 목표가 도달 성공률 79%</div>
+          </div>
+        </div>
+
+        <div class="metric-card glass-panel">
+          <div class="metric-icon purple"><i class="fa-solid fa-scale-balanced"></i></div>
+          <div class="metric-data">
+            <div class="metric-title">평균 손익비 (Risk/Reward)</div>
+            <div class="metric-value font-digit">1:2.1<span class="unit">배</span></div>
+            <div class="metric-desc">손절 -2.0% 대비 목표 +4.2%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card glass-panel history-list-card">
+        <h3 class="panel-title"><i class="fa-solid fa-timeline"></i> 일자별 추천 종목 및 실제 수익률 검증 내역</h3>
+        <p class="panel-subtitle">매일 아침 추천되었던 종목들의 당일 실제 고가 및 종가 수익률을 투명하게 공개합니다.</p>
+        
+        <div id="historyAccordion" class="history-accordion">
+          <!-- JS로 동적 렌더링 -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 탭 4: 알고리즘 매매 가이드 -->
+    <section class="tab-content" id="tabStrategy">
+      <div class="strategy-grid">
+        <div class="card glass-panel strategy-card">
+          <div class="strategy-icon"><i class="fa-solid fa-shield-virus"></i></div>
+          <h4>1. 3중 유니버스 필터링</h4>
+          <p>KOSPI 시장의 전 종목 중 거래정지, 관리종목, 우선주, 스팩주를 1차 배제하고 일 거래대금 10억 이상의 유동성이 검증된 보통주만을 대상으로 연산합니다.</p>
+        </div>
+
+        <div class="card glass-panel strategy-card">
+          <div class="strategy-icon"><i class="fa-solid fa-money-bill-trend-up"></i></div>
+          <h4>2. 메이저 수급 듀얼 포착 (35점)</h4>
+          <p>외국인과 기관의 '동시 순매수(쌍끌이)' 여부 및 최근 3~5거래일 연속 순매수 지속성을 가중 평가하여 주가 상승의 근본 동력을 추적합니다.</p>
+        </div>
+
+        <div class="card glass-panel strategy-card">
+          <div class="strategy-icon"><i class="fa-solid fa-wave-pulse"></i></div>
+          <h4>3. 이평선 골든크로스 & 정배열 (30점)</h4>
+          <p>5일 이동평균선이 20일선을 상향 돌파하는 단기 골든크로스와 5-20-60일선 완전 정배열 및 볼린저 밴드 상단 돌파 모멘텀을 정밀 채점합니다.</p>
+        </div>
+
+        <div class="card glass-panel strategy-card">
+          <div class="strategy-icon"><i class="fa-solid fa-fire"></i></div>
+          <h4>4. 거래량 200%+ 폭증 포착 (20점)</h4>
+          <p>최근 5일 평균 거래량 대비 1.5배~3.0배 이상 급증한 종목을 포착하여, 강력한 주포 매집 및 시세 분출 초입 구간을 선별합니다.</p>
+        </div>
+
+        <div class="card glass-panel strategy-card">
+          <div class="strategy-icon"><i class="fa-solid fa-crosshairs"></i></div>
+          <h4>5. 리스크 관리 트레이딩 룰</h4>
+          <p><strong>진입</strong>: 시초가 또는 -0.8% 분할 매수<br>
+             <strong>익절</strong>: +3.8% ~ +5.0% 1차 분할 매도<br>
+             <strong>손절</strong>: -2.0% ~ -2.5% 기계적 칼손절 원칙 준수</p>
+        </div>
+
+        <div class="card glass-panel strategy-card">
+          <div class="strategy-icon"><i class="fa-solid fa-bell"></i></div>
+          <h4>6. 매일 아침 08:15 자동 실행</h4>
+          <p>장 시작 전 최신 장외 데이터와 전일 최종 집계를 기반으로 08:15에 배치 스케줄러가 자동 분석하여 최적의 TOP 5를 도출합니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 인터랙티브 캔들 차트 모달 -->
+    <div class="modal-overlay" id="chartModal">
+      <div class="modal-dialog glass-panel">
+        <div class="modal-header">
+          <div class="modal-title-group">
+            <img src="" id="modalStockLogo" class="modal-stock-logo" alt="logo" style="display:none;">
+            <div>
+              <div class="modal-stock-name" id="modalStockName">종목명</div>
+              <div class="modal-stock-code" id="modalStockCode">000000</div>
+            </div>
+            <div class="modal-price-wrap">
+              <span class="modal-price" id="modalStockPrice">---원</span>
+              <span class="modal-change" id="modalStockChange">---%</span>
+            </div>
+          </div>
+          <button class="modal-close-btn" id="modalCloseBtn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <div class="chart-legend">
+          <span class="legend-item"><span class="legend-box ma5"></span> 5일선</span>
+          <span class="legend-item"><span class="legend-box ma20"></span> 20일선</span>
+          <span class="legend-item"><span class="legend-box ma60"></span> 60일선</span>
+          <span class="legend-item candle-up"><span class="legend-box up"></span> 양봉(상승)</span>
+          <span class="legend-item candle-down"><span class="legend-box down"></span> 음봉(하락)</span>
+        </div>
+
+        <div class="chart-canvas-container">
+          <canvas id="candleCanvas" width="900" height="420"></canvas>
+          <div class="chart-tooltip" id="chartTooltip" style="display:none;"></div>
+        </div>
+
+        <div class="modal-footer">
+          <div class="modal-signals" id="modalSignalTags">
+            <!-- 시그널 태그들 -->
+          </div>
+          <div class="modal-actions">
+            <span class="chart-hint"><i class="fa-regular fa-hand-pointer"></i> 캔들 위에 마우스를 올리면 시/고/저/종가 상세를 확인하실 수 있습니다.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 진행률 로딩 오버레이 (즉시 재분석 클릭 시) -->
+    <div class="analysis-loading-overlay" id="loadingOverlay">
+      <div class="loading-card glass-panel">
+        <div class="loading-spinner">
+          <div class="spinner-ring"></div>
+          <i class="fa-solid fa-chart-line loading-center-icon"></i>
+        </div>
+        <h3 class="loading-title">KOSPI 전 종목 정밀 퀀트 분석 중</h3>
+        <p class="loading-step" id="loadingStepText">데이터를 수집하고 있습니다...</p>
+        
+        <div class="progress-bar-wrap">
+          <div class="progress-bar-fill" id="progressBarFill" style="width: 15%;"></div>
+        </div>
+        <div class="progress-percent" id="progressPercentText">15%</div>
+        <p class="loading-sub">보통주 유니버스 선별 → 캔들·수급 수집 → 퀀트 스코어링 진행 중</p>
+      </div>
+    </div>
+
+    <!-- 푸터 -->
+    <footer class="main-footer">
+      <div class="footer-content">
+        <p>© 2026 KOSPI Morning Alpha Engine. 본 서비스에서 제공하는 모든 정보는 투자 판단의 참고 자료이며, 최종 투자에 대한 책임은 본인에게 있습니다.</p>
+        <p class="footer-sub">데이터 제공: 한국거래소(KRX) & 네이버 금융 실시간 시세 연동 | 알고리즘: KOSPI Hybrid Quant Momentum Model</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Scripts (Relative Path for GitHub Pages) -->
+  <script src="./js/charts.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

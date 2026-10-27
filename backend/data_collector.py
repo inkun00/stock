@@ -77,7 +77,10 @@ class KospiDataCollector:
                         continue
                     if not code.endswith("0"):  # 우선주 제외
                         continue
-                    if any(exclude in name for exclude in ["스팩", "1우", "2우", "3우", "우B", "우C", "선물", "인버스", "레버리지"]):
+                    # ETF, ETN, 스팩, 우선주 제외 필터링
+                    etf_keywords = ["스팩", "1우", "2우", "3우", "우B", "우C", "선물", "인버스", "레버리지", 
+                                    "KODEX", "TIGER", "ACE", "KBSTAR", "ARIRANG", "KOSEF", "SOL", "RISE", "PLUS", "HANARO", "TIMEFOLIO", "WOORI", "히어로즈", "액티브"]
+                    if any(exclude in name for exclude in etf_keywords):
                         continue
                     if item.get("tradeStopType", {}).get("name") == "TRADE_STOP":  # 거래정지 제외
                         continue

@@ -4,6 +4,22 @@
     "recommends": [
       {
         "rank": 1,
+        "code": "294870",
+        "name": "IPARK현대산업개발",
+        "entryPrice": 23900.0,
+        "riseProbability": 87.9,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 3일 연속순매수",
+          "5·20 골든크로스",
+          "RSI 최적모멘텀(65.2)"
+        ],
+        "dayCloseReturn": 7.2,
+        "dayHighReturn": 9.0,
+        "hit": true
+      },
+      {
+        "rank": 2,
         "code": "028050",
         "name": "삼성E&A",
         "entryPrice": 62800.0,
@@ -19,7 +35,7 @@
         "hit": true
       },
       {
-        "rank": 2,
+        "rank": 3,
         "code": "064400",
         "name": "LG씨엔에스",
         "entryPrice": 75500.0,
@@ -35,7 +51,7 @@
         "hit": true
       },
       {
-        "rank": 3,
+        "rank": 4,
         "code": "036460",
         "name": "한국가스공사",
         "entryPrice": 36600.0,
@@ -51,35 +67,19 @@
         "hit": true
       },
       {
-        "rank": 4,
-        "code": "031210",
-        "name": "서울보증보험",
-        "entryPrice": 43250.0,
-        "riseProbability": 85.2,
+        "rank": 5,
+        "code": "000400",
+        "name": "롯데손해보험",
+        "entryPrice": 2405.0,
+        "riseProbability": 85.5,
         "tags": [
           "외인·기관 양매수",
-          "수급 10일 연속순매수",
-          "RSI 최적모멘텀(55.8)",
-          "볼린저밴드 상단돌파"
-        ],
-        "dayCloseReturn": 1.3,
-        "dayHighReturn": 3.1,
-        "hit": true
-      },
-      {
-        "rank": 5,
-        "code": "459580",
-        "name": "KODEX CD금리액티브(합성)",
-        "entryPrice": 1075865.0,
-        "riseProbability": 85.0,
-        "tags": [
-          "기관 집중매수",
-          "수급 4일 연속순매수",
+          "수급 2일 연속순매수",
           "완전 정배열",
-          "볼린저밴드 상단돌파"
+          "RSI 최적모멘텀(55.6)"
         ],
-        "dayCloseReturn": 0.0,
-        "dayHighReturn": 1.8,
+        "dayCloseReturn": 0.4,
+        "dayHighReturn": 2.2,
         "hit": true
       }
     ],

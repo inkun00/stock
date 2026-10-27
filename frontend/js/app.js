@@ -62,16 +62,31 @@ class KospiApp {
   }
 
   /* ========================================================================
-     Data Fetching
+     Data Fetching (Supports both Local Backend API & GitHub Pages Static Hosting)
      ======================================================================== */
   async loadOverview() {
     try {
-      const res = await fetch('/api/overview');
-      if (!res.ok) throw new Error('데이터 응답 오류');
-      this.latestData = await res.json();
-      this.renderHeader();
-      this.renderTop5();
-      this.renderScreener();
+      let data = null;
+      // 1순위: 로컬 FastAPI 백엔드 API 시도
+      try {
+        const res = await fetch('/api/overview');
+        if (res.ok) data = await res.json();
+      } catch (e) {
+        // 백엔드가 없는 정적 호스팅 환경
+      }
+
+      // 2순위: GitHub Pages 정적 JSON 데이터 로드
+      if (!data) {
+        const staticRes = await fetch('./data/latest_top5.json');
+        if (staticRes.ok) data = await staticRes.json();
+      }
+
+      if (data) {
+        this.latestData = data;
+        this.renderHeader();
+        this.renderTop5();
+        this.renderScreener();
+      }
     } catch (err) {
       console.error('Overview 로드 실패:', err);
     }
@@ -79,9 +94,21 @@ class KospiApp {
 
   async loadHistory() {
     try {
-      const res = await fetch('/api/history');
-      if (res.ok) {
-        this.historyData = await res.json();
+      let history = null;
+      try {
+        const res = await fetch('/api/history');
+        if (res.ok) history = await res.json();
+      } catch (e) {
+        // 정적 호스팅 환경
+      }
+
+      if (!history) {
+        const staticRes = await fetch('./data/history.json');
+        if (staticRes.ok) history = await staticRes.json();
+      }
+
+      if (history) {
+        this.historyData = history;
         this.renderHistory();
       }
     } catch (err) {
@@ -413,7 +440,22 @@ class KospiApp {
 
     this.chartModal.classList.add('open');
 
-    // 캔들 데이터 로드
+    // 1. 이미 메모리에 있는 캔들 데이터 확인 (GitHub Pages 정적 모드 지원)
+    let foundCandles = [];
+    if (this.latestData) {
+      const allStocks = [...(this.latestData.top5 || []), ...(this.latestData.screener || [])];
+      const match = allStocks.find(s => s.code === code);
+      if (match && match.candles && match.candles.length) {
+        foundCandles = match.candles;
+      }
+    }
+
+    if (foundCandles.length > 0) {
+      this.chart.setData(foundCandles);
+      return;
+    }
+
+    // 2. 백엔드 API 캔들 데이터 로드 시도
     try {
       this.chart.setData([]); // 초기화
       const res = await fetch(`/api/stock/${code}/candles?count=60`);
@@ -442,14 +484,24 @@ class KospiApp {
     this.showLoadingOverlay(true);
     try {
       const res = await fetch('/api/analyze/now', { method: 'POST' });
+      if (!res.ok) throw new Error('API Unavailable');
       const data = await res.json();
       if (!data.success && data.message.includes('진행 중')) {
         // 이미 진행 중이면 바로 폴링 진입
       }
       this.startStatusPolling();
     } catch (err) {
-      console.error('재분석 요청 실패:', err);
-      this.showLoadingOverlay(false);
+      // GitHub Pages 정적 환경인 경우
+      this.updateProgressBar(80, '최신 저장소 데이터 동기화 중...');
+      setTimeout(async () => {
+        await this.loadOverview();
+        await this.loadHistory();
+        this.updateProgressBar(100, '최신 분석 데이터 새로고침 완료!');
+        setTimeout(() => {
+          this.showLoadingOverlay(false);
+          alert('GitHub Pages(정적 모드) 환경입니다.\nGitHub Actions가 매일 아침 08:15 KST에 자동으로 분석을 실행하여 저장소를 갱신합니다.\n(로컬 환경에서는 python run.py 실행 시 30초 내 실시간 재분석이 가능합니다.)');
+        }, 600);
+      }, 1000);
     }
   }
 
