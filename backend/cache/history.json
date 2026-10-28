@@ -4,82 +4,82 @@
     "recommends": [
       {
         "rank": 1,
-        "code": "294870",
-        "name": "IPARK현대산업개발",
-        "entryPrice": 23900.0,
-        "riseProbability": 87.9,
-        "tags": [
-          "외인·기관 양매수",
-          "수급 3일 연속순매수",
-          "5·20 골든크로스",
-          "RSI 최적모멘텀(65.2)"
-        ],
-        "dayCloseReturn": 7.2,
-        "dayHighReturn": 9.0,
-        "hit": true
-      },
-      {
-        "rank": 2,
         "code": "028050",
         "name": "삼성E&A",
-        "entryPrice": 62800.0,
-        "riseProbability": 87.6,
+        "entryPrice": 63900.0,
+        "riseProbability": 88.9,
         "tags": [
           "외국인 순매수",
           "수급 5일 연속순매수",
           "완전 정배열",
           "초강세 구간"
         ],
-        "dayCloseReturn": 5.0,
-        "dayHighReturn": 6.8,
-        "hit": true
-      },
-      {
-        "rank": 3,
-        "code": "064400",
-        "name": "LG씨엔에스",
-        "entryPrice": 75500.0,
-        "riseProbability": 86.5,
-        "tags": [
-          "외인·기관 양매수",
-          "수급 7일 연속순매수",
-          "RSI 최적모멘텀(60.8)",
-          "볼린저밴드 상단돌파"
-        ],
         "dayCloseReturn": 2.7,
         "dayHighReturn": 4.5,
         "hit": true
       },
       {
-        "rank": 4,
+        "rank": 2,
         "code": "036460",
         "name": "한국가스공사",
-        "entryPrice": 36600.0,
+        "entryPrice": 36950.0,
         "riseProbability": 86.5,
         "tags": [
           "외인·기관 양매수",
           "수급 4일 연속순매수",
           "완전 정배열",
-          "RSI 최적모멘텀(55.8)"
+          "RSI 최적모멘텀(58.5)"
         ],
-        "dayCloseReturn": 1.5,
-        "dayHighReturn": 3.3,
+        "dayCloseReturn": 1.0,
+        "dayHighReturn": 2.8,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "code": "003160",
+        "name": "디아이",
+        "entryPrice": 41650.0,
+        "riseProbability": 85.5,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 5일 연속순매수",
+          "RSI 최적모멘텀(59.3)",
+          "거래량 217% 증가"
+        ],
+        "dayCloseReturn": 10.2,
+        "dayHighReturn": 12.0,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "code": "064400",
+        "name": "LG씨엔에스",
+        "entryPrice": 78300.0,
+        "riseProbability": 85.2,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 7일 연속순매수",
+          "RSI 최적모멘텀(64.8)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 4.3,
+        "dayHighReturn": 6.1,
         "hit": true
       },
       {
         "rank": 5,
-        "code": "000400",
-        "name": "롯데손해보험",
-        "entryPrice": 2405.0,
-        "riseProbability": 85.5,
+        "code": "294870",
+        "name": "IPARK현대산업개발",
+        "entryPrice": 24450.0,
+        "riseProbability": 85.2,
         "tags": [
           "외인·기관 양매수",
-          "수급 2일 연속순매수",
-          "완전 정배열",
-          "RSI 최적모멘텀(55.6)"
+          "수급 3일 연속순매수",
+          "초강세 구간",
+          "볼린저밴드 상단돌파"
         ],
-        "dayCloseReturn": 0.4,
-        "dayHighReturn": 2.2,
+        "dayCloseReturn": 2.1,
+        "dayHighReturn": 3.9,
         "hit": true
       }
     ],
