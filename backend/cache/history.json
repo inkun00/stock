@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-10-29",
+    "recommends": [
+      {
+        "rank": 1,
+        "code": "293940",
+        "name": "신한알파리츠",
+        "entryPrice": 5750.0,
+        "riseProbability": 86.5,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 8일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(66.5)"
+        ],
+        "dayCloseReturn": 0.2,
+        "dayHighReturn": 2.0,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "code": "036460",
+        "name": "한국가스공사",
+        "entryPrice": 36650.0,
+        "riseProbability": 86.0,
+        "tags": [
+          "기관 집중매수",
+          "수급 5일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(55.5)"
+        ],
+        "dayCloseReturn": -0.7,
+        "dayHighReturn": 1.2,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "code": "003160",
+        "name": "디아이",
+        "entryPrice": 44200.0,
+        "riseProbability": 85.0,
+        "tags": [
+          "기관 집중매수",
+          "수급 6일 연속순매수",
+          "완전 정배열",
+          "5·20 골든크로스"
+        ],
+        "dayCloseReturn": 2.1,
+        "dayHighReturn": 3.9,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "code": "006280",
+        "name": "녹십자",
+        "entryPrice": 130600.0,
+        "riseProbability": 85.0,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 2일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(55.7)"
+        ],
+        "dayCloseReturn": 0.1,
+        "dayHighReturn": 1.9,
+        "hit": true
+      },
+      {
+        "rank": 5,
+        "code": "000400",
+        "name": "롯데손해보험",
+        "entryPrice": 2470.0,
+        "riseProbability": 84.2,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 3일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(60.0)"
+        ],
+        "dayCloseReturn": 2.9,
+        "dayHighReturn": 4.7,
+        "hit": true
+      }
+    ],
+    "winRate": 80.0,
+    "avgHighReturn": 3.4
+  },
+  {
     "date": "2026-10-28",
     "recommends": [
       {
