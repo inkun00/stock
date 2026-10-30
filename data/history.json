@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-10-30",
+    "recommends": [
+      {
+        "rank": 1,
+        "code": "271560",
+        "name": "오리온",
+        "entryPrice": 113800.0,
+        "riseProbability": 86.5,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 3일 연속순매수",
+          "RSI 최적모멘텀(55.2)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 0.8,
+        "dayHighReturn": 2.6,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "code": "030190",
+        "name": "NICE평가정보",
+        "entryPrice": 17360.0,
+        "riseProbability": 85.8,
+        "tags": [
+          "외국인 순매수",
+          "수급 2일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(64.8)"
+        ],
+        "dayCloseReturn": 0.8,
+        "dayHighReturn": 2.6,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "code": "000080",
+        "name": "하이트진로",
+        "entryPrice": 15850.0,
+        "riseProbability": 85.5,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 2일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(60.6)"
+        ],
+        "dayCloseReturn": 1.6,
+        "dayHighReturn": 3.4,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "code": "293940",
+        "name": "신한알파리츠",
+        "entryPrice": 5630.0,
+        "riseProbability": 85.2,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 9일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(54.7)"
+        ],
+        "dayCloseReturn": -2.1,
+        "dayHighReturn": 1.2,
+        "hit": true
+      },
+      {
+        "rank": 5,
+        "code": "000810",
+        "name": "삼성화재",
+        "entryPrice": 645000.0,
+        "riseProbability": 85.0,
+        "tags": [
+          "외국인 순매수",
+          "수급 3일 연속순매수",
+          "RSI 최적모멘텀(58.1)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": -0.9,
+        "dayHighReturn": 1.2,
+        "hit": true
+      }
+    ],
+    "winRate": 80.0,
+    "avgHighReturn": 3.4
+  },
+  {
     "date": "2026-10-29",
     "recommends": [
       {
