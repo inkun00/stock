@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-11-02",
+    "recommends": [
+      {
+        "rank": 1,
+        "code": "000080",
+        "name": "하이트진로",
+        "entryPrice": 16100.0,
+        "riseProbability": 87.9,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 3일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(65.0)"
+        ],
+        "dayCloseReturn": 1.0,
+        "dayHighReturn": 2.8,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "code": "001800",
+        "name": "오리온홀딩스",
+        "entryPrice": 23450.0,
+        "riseProbability": 87.9,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 3일 연속순매수",
+          "5·20 골든크로스",
+          "RSI 최적모멘텀(54.2)"
+        ],
+        "dayCloseReturn": 1.7,
+        "dayHighReturn": 3.5,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "code": "036460",
+        "name": "한국가스공사",
+        "entryPrice": 37150.0,
+        "riseProbability": 86.5,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 7일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(59.9)"
+        ],
+        "dayCloseReturn": 0.0,
+        "dayHighReturn": 1.8,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "code": "086280",
+        "name": "현대글로비스",
+        "entryPrice": 198950.0,
+        "riseProbability": 86.3,
+        "tags": [
+          "기관 집중매수",
+          "5·20 골든크로스",
+          "RSI 최적모멘텀(57.8)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 8.2,
+        "dayHighReturn": 10.0,
+        "hit": true
+      },
+      {
+        "rank": 5,
+        "code": "294870",
+        "name": "IPARK현대산업개발",
+        "entryPrice": 25300.0,
+        "riseProbability": 85.8,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 6일 연속순매수",
+          "RSI 최적모멘텀(67.9)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 4.8,
+        "dayHighReturn": 6.6,
+        "hit": true
+      }
+    ],
+    "winRate": 80.0,
+    "avgHighReturn": 3.4
+  },
+  {
     "date": "2026-10-30",
     "recommends": [
       {
