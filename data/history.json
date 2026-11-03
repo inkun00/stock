@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-11-03",
+    "recommends": [
+      {
+        "rank": 1,
+        "code": "006280",
+        "name": "녹십자",
+        "entryPrice": 138700.0,
+        "riseProbability": 90.5,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 5일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(64.9)"
+        ],
+        "dayCloseReturn": 3.6,
+        "dayHighReturn": 5.4,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "code": "180640",
+        "name": "한진칼",
+        "entryPrice": 175200.0,
+        "riseProbability": 89.5,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 6일 연속순매수",
+          "볼린저밴드 상단돌파",
+          "거래량 665% 폭증"
+        ],
+        "dayCloseReturn": 30.0,
+        "dayHighReturn": 31.8,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "code": "139480",
+        "name": "이마트",
+        "entryPrice": 75000.0,
+        "riseProbability": 89.2,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 4일 연속순매수",
+          "5·20 골든크로스",
+          "RSI 최적모멘텀(59.1)"
+        ],
+        "dayCloseReturn": 1.4,
+        "dayHighReturn": 3.2,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "code": "003490",
+        "name": "대한항공",
+        "entryPrice": 29650.0,
+        "riseProbability": 88.1,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 4일 연속순매수",
+          "RSI 최적모멘텀(58.2)",
+          "거래량 284% 폭증"
+        ],
+        "dayCloseReturn": 3.7,
+        "dayHighReturn": 5.5,
+        "hit": true
+      },
+      {
+        "rank": 5,
+        "code": "079160",
+        "name": "CJ CGV",
+        "entryPrice": 5170.0,
+        "riseProbability": 87.1,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 5일 연속순매수",
+          "RSI 최적모멘텀(54.4)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": -0.6,
+        "dayHighReturn": 1.2,
+        "hit": true
+      }
+    ],
+    "winRate": 80.0,
+    "avgHighReturn": 3.4
+  },
+  {
     "date": "2026-11-02",
     "recommends": [
       {
