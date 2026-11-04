@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-11-04",
+    "recommends": [
+      {
+        "rank": 1,
+        "code": "000080",
+        "name": "하이트진로",
+        "entryPrice": 16130.0,
+        "riseProbability": 86.5,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 5일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(65.5)"
+        ],
+        "dayCloseReturn": 0.2,
+        "dayHighReturn": 2.0,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "code": "180640",
+        "name": "한진칼",
+        "entryPrice": 186600.0,
+        "riseProbability": 85.8,
+        "tags": [
+          "기관 집중매수",
+          "수급 7일 연속순매수",
+          "볼린저밴드 상단돌파",
+          "거래량 399% 폭증"
+        ],
+        "dayCloseReturn": 7.0,
+        "dayHighReturn": 8.8,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "code": "031210",
+        "name": "서울보증보험",
+        "entryPrice": 44100.0,
+        "riseProbability": 85.8,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 2일 연속순매수",
+          "RSI 최적모멘텀(61.2)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 0.5,
+        "dayHighReturn": 2.3,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "code": "011200",
+        "name": "HMM",
+        "entryPrice": 23200.0,
+        "riseProbability": 85.5,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 10일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(58.8)"
+        ],
+        "dayCloseReturn": -0.2,
+        "dayHighReturn": 1.6,
+        "hit": true
+      },
+      {
+        "rank": 5,
+        "code": "001800",
+        "name": "오리온홀딩스",
+        "entryPrice": 23800.0,
+        "riseProbability": 85.5,
+        "tags": [
+          "기관 집중매수",
+          "수급 5일 연속순매수",
+          "RSI 최적모멘텀(57.8)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 0.0,
+        "dayHighReturn": 1.8,
+        "hit": true
+      }
+    ],
+    "winRate": 80.0,
+    "avgHighReturn": 3.4
+  },
+  {
     "date": "2026-11-03",
     "recommends": [
       {
