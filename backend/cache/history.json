@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-11-05",
+    "recommends": [
+      {
+        "rank": 1,
+        "code": "005300",
+        "name": "롯데칠성",
+        "entryPrice": 113500.0,
+        "riseProbability": 89.5,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 6일 연속순매수",
+          "완전 정배열",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 9.1,
+        "dayHighReturn": 10.9,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "code": "000080",
+        "name": "하이트진로",
+        "entryPrice": 16690.0,
+        "riseProbability": 89.2,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 5일 연속순매수",
+          "완전 정배열",
+          "초강세 구간"
+        ],
+        "dayCloseReturn": 3.5,
+        "dayHighReturn": 5.3,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "code": "068270",
+        "name": "셀트리온",
+        "entryPrice": 214500.0,
+        "riseProbability": 88.1,
+        "tags": [
+          "기관 집중매수",
+          "수급 5일 연속순매수",
+          "완전 정배열",
+          "초강세 구간"
+        ],
+        "dayCloseReturn": 7.2,
+        "dayHighReturn": 9.1,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "code": "026960",
+        "name": "동서",
+        "entryPrice": 28700.0,
+        "riseProbability": 88.1,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 4일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(65.0)"
+        ],
+        "dayCloseReturn": 2.9,
+        "dayHighReturn": 4.7,
+        "hit": true
+      },
+      {
+        "rank": 5,
+        "code": "021240",
+        "name": "코웨이",
+        "entryPrice": 108900.0,
+        "riseProbability": 87.9,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 2일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(60.8)"
+        ],
+        "dayCloseReturn": 5.1,
+        "dayHighReturn": 6.9,
+        "hit": true
+      }
+    ],
+    "winRate": 80.0,
+    "avgHighReturn": 3.4
+  },
+  {
     "date": "2026-11-04",
     "recommends": [
       {
