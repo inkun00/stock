@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-11-06",
+    "recommends": [
+      {
+        "rank": 1,
+        "code": "035720",
+        "name": "카카오",
+        "entryPrice": 32650.0,
+        "riseProbability": 89.2,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 2일 연속순매수",
+          "5·20 골든크로스",
+          "RSI 최적모멘텀(57.2)"
+        ],
+        "dayCloseReturn": 1.4,
+        "dayHighReturn": 3.2,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "code": "035420",
+        "name": "NAVER",
+        "entryPrice": 187400.0,
+        "riseProbability": 89.2,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 2일 연속순매수",
+          "5·20 골든크로스",
+          "RSI 최적모멘텀(54.6)"
+        ],
+        "dayCloseReturn": 1.4,
+        "dayHighReturn": 3.2,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "code": "030190",
+        "name": "NICE평가정보",
+        "entryPrice": 18170.0,
+        "riseProbability": 88.9,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 7일 연속순매수",
+          "완전 정배열",
+          "초강세 구간"
+        ],
+        "dayCloseReturn": 1.7,
+        "dayHighReturn": 3.5,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "code": "302440",
+        "name": "SK바이오사이언스",
+        "entryPrice": 39050.0,
+        "riseProbability": 88.1,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 5일 연속순매수",
+          "5·20 골든크로스",
+          "초강세 구간"
+        ],
+        "dayCloseReturn": 5.7,
+        "dayHighReturn": 7.5,
+        "hit": true
+      },
+      {
+        "rank": 5,
+        "code": "088980",
+        "name": "맥쿼리인프라",
+        "entryPrice": 9670.0,
+        "riseProbability": 87.9,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 5일 연속순매수",
+          "5·20 골든크로스",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": -0.1,
+        "dayHighReturn": 1.7,
+        "hit": true
+      }
+    ],
+    "winRate": 80.0,
+    "avgHighReturn": 3.4
+  },
+  {
     "date": "2026-11-05",
     "recommends": [
       {
