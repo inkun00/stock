@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-11-10",
+    "recommends": [
+      {
+        "rank": 1,
+        "code": "137310",
+        "name": "에스디바이오센서",
+        "entryPrice": 7270.0,
+        "riseProbability": 90.5,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 8일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(67.4)"
+        ],
+        "dayCloseReturn": 9.3,
+        "dayHighReturn": 11.1,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "code": "003490",
+        "name": "대한항공",
+        "entryPrice": 32400.0,
+        "riseProbability": 89.2,
+        "tags": [
+          "기관 집중매수",
+          "수급 9일 연속순매수",
+          "RSI 최적모멘텀(66.6)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 11.3,
+        "dayHighReturn": 13.1,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "code": "035420",
+        "name": "NAVER",
+        "entryPrice": 192700.0,
+        "riseProbability": 88.4,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 4일 연속순매수",
+          "RSI 최적모멘텀(57.8)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 3.0,
+        "dayHighReturn": 4.8,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "code": "192080",
+        "name": "더블유게임즈",
+        "entryPrice": 59200.0,
+        "riseProbability": 88.1,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 10일 연속순매수",
+          "RSI 최적모멘텀(65.2)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 8.6,
+        "dayHighReturn": 10.4,
+        "hit": true
+      },
+      {
+        "rank": 5,
+        "code": "462870",
+        "name": "시프트업",
+        "entryPrice": 31650.0,
+        "riseProbability": 87.1,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 7일 연속순매수",
+          "RSI 최적모멘텀(58.1)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 2.6,
+        "dayHighReturn": 4.4,
+        "hit": true
+      }
+    ],
+    "winRate": 80.0,
+    "avgHighReturn": 3.4
+  },
+  {
     "date": "2026-11-09",
     "recommends": [
       {
