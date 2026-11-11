@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-11-11",
+    "recommends": [
+      {
+        "rank": 1,
+        "code": "034230",
+        "name": "파라다이스",
+        "entryPrice": 10700.0,
+        "riseProbability": 88.1,
+        "tags": [
+          "기관 집중매수",
+          "수급 10일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(67.5)"
+        ],
+        "dayCloseReturn": 7.9,
+        "dayHighReturn": 9.7,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "code": "035420",
+        "name": "NAVER",
+        "entryPrice": 192400.0,
+        "riseProbability": 87.1,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 5일 연속순매수",
+          "RSI 최적모멘텀(57.3)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": -0.3,
+        "dayHighReturn": 1.5,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "code": "137310",
+        "name": "에스디바이오센서",
+        "entryPrice": 7260.0,
+        "riseProbability": 86.5,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 9일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(67.2)"
+        ],
+        "dayCloseReturn": 0.6,
+        "dayHighReturn": 2.4,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "code": "017670",
+        "name": "SK텔레콤",
+        "entryPrice": 82450.0,
+        "riseProbability": 86.0,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 5일 연속순매수",
+          "RSI 최적모멘텀(56.2)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 1.2,
+        "dayHighReturn": 3.0,
+        "hit": true
+      },
+      {
+        "rank": 5,
+        "code": "030190",
+        "name": "NICE평가정보",
+        "entryPrice": 18120.0,
+        "riseProbability": 86.0,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 10일 연속순매수",
+          "완전 정배열",
+          "초강세 구간"
+        ],
+        "dayCloseReturn": 0.4,
+        "dayHighReturn": 2.2,
+        "hit": true
+      }
+    ],
+    "winRate": 80.0,
+    "avgHighReturn": 3.4
+  },
+  {
     "date": "2026-11-10",
     "recommends": [
       {
