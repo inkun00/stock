@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-11-12",
+    "recommends": [
+      {
+        "rank": 1,
+        "code": "003490",
+        "name": "대한항공",
+        "entryPrice": 31300.0,
+        "riseProbability": 86.3,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 10일 연속순매수",
+          "RSI 최적모멘텀(60.2)",
+          "밑꼬리 반등 양봉"
+        ],
+        "dayCloseReturn": -0.6,
+        "dayHighReturn": 1.2,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "code": "007810",
+        "name": "코리아써키트",
+        "entryPrice": 88700.0,
+        "riseProbability": 84.7,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 3일 연속순매수",
+          "완전 정배열",
+          "5·20 골든크로스"
+        ],
+        "dayCloseReturn": 2.7,
+        "dayHighReturn": 4.5,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "code": "030200",
+        "name": "KT",
+        "entryPrice": 51400.0,
+        "riseProbability": 84.7,
+        "tags": [
+          "외국인 순매수",
+          "수급 2일 연속순매수",
+          "RSI 최적모멘텀(56.8)",
+          "밑꼬리 반등 양봉"
+        ],
+        "dayCloseReturn": 1.6,
+        "dayHighReturn": 3.4,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "code": "003850",
+        "name": "보령",
+        "entryPrice": 8760.0,
+        "riseProbability": 84.4,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 5일 연속순매수",
+          "RSI 최적모멘텀(60.8)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": -0.5,
+        "dayHighReturn": 1.4,
+        "hit": true
+      },
+      {
+        "rank": 5,
+        "code": "0220W0",
+        "name": "한화머시너리앤서비스홀딩스",
+        "entryPrice": 7830.0,
+        "riseProbability": 83.4,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 10일 연속순매수",
+          "완전 정배열",
+          "5·20 골든크로스"
+        ],
+        "dayCloseReturn": 0.8,
+        "dayHighReturn": 2.6,
+        "hit": true
+      }
+    ],
+    "winRate": 80.0,
+    "avgHighReturn": 3.4
+  },
+  {
     "date": "2026-11-11",
     "recommends": [
       {
