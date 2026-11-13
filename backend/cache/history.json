@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-11-13",
+    "recommends": [
+      {
+        "rank": 1,
+        "code": "086790",
+        "name": "하나금융지주",
+        "entryPrice": 124300.0,
+        "riseProbability": 86.3,
+        "tags": [
+          "외국인 순매수",
+          "수급 3일 연속순매수",
+          "RSI 최적모멘텀(55.7)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 3.1,
+        "dayHighReturn": 5.0,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "code": "012750",
+        "name": "에스원",
+        "entryPrice": 100900.0,
+        "riseProbability": 86.0,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 10일 연속순매수",
+          "완전 정배열",
+          "초강세 구간"
+        ],
+        "dayCloseReturn": 1.6,
+        "dayHighReturn": 3.4,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "code": "007810",
+        "name": "코리아써키트",
+        "entryPrice": 90100.0,
+        "riseProbability": 85.2,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 4일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(62.2)"
+        ],
+        "dayCloseReturn": 1.7,
+        "dayHighReturn": 3.5,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "code": "068270",
+        "name": "셀트리온",
+        "entryPrice": 213500.0,
+        "riseProbability": 85.2,
+        "tags": [
+          "외국인 순매수",
+          "수급 3일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(66.8)"
+        ],
+        "dayCloseReturn": 1.9,
+        "dayHighReturn": 3.7,
+        "hit": true
+      },
+      {
+        "rank": 5,
+        "code": "036460",
+        "name": "한국가스공사",
+        "entryPrice": 37900.0,
+        "riseProbability": 85.2,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 10일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(58.2)"
+        ],
+        "dayCloseReturn": -1.0,
+        "dayHighReturn": 1.2,
+        "hit": true
+      }
+    ],
+    "winRate": 80.0,
+    "avgHighReturn": 3.4
+  },
+  {
     "date": "2026-11-12",
     "recommends": [
       {
