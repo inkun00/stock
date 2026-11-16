@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-11-16",
+    "recommends": [
+      {
+        "rank": 1,
+        "code": "316140",
+        "name": "우리금융지주",
+        "entryPrice": 32850.0,
+        "riseProbability": 87.9,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 2일 연속순매수",
+          "RSI 최적모멘텀(58.1)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 1.1,
+        "dayHighReturn": 2.9,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "code": "017670",
+        "name": "SK텔레콤",
+        "entryPrice": 85300.0,
+        "riseProbability": 87.9,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 2일 연속순매수",
+          "RSI 최적모멘텀(59.5)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 1.7,
+        "dayHighReturn": 3.5,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "code": "088980",
+        "name": "맥쿼리인프라",
+        "entryPrice": 9870.0,
+        "riseProbability": 87.1,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 10일 연속순매수",
+          "RSI 최적모멘텀(61.5)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 0.3,
+        "dayHighReturn": 2.1,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "code": "003490",
+        "name": "대한항공",
+        "entryPrice": 31800.0,
+        "riseProbability": 86.3,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 4일 연속순매수",
+          "RSI 최적모멘텀(62.5)",
+          "밑꼬리 반등 양봉"
+        ],
+        "dayCloseReturn": 0.8,
+        "dayHighReturn": 2.6,
+        "hit": true
+      },
+      {
+        "rank": 5,
+        "code": "105560",
+        "name": "KB금융",
+        "entryPrice": 160900.0,
+        "riseProbability": 86.0,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 4일 연속순매수",
+          "5·20 골든크로스",
+          "RSI 최적모멘텀(55.3)"
+        ],
+        "dayCloseReturn": 1.2,
+        "dayHighReturn": 3.0,
+        "hit": true
+      }
+    ],
+    "winRate": 80.0,
+    "avgHighReturn": 3.4
+  },
+  {
     "date": "2026-11-13",
     "recommends": [
       {
