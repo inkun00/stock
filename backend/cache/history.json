@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-11-17",
+    "recommends": [
+      {
+        "rank": 1,
+        "code": "000100",
+        "name": "유한양행",
+        "entryPrice": 83000.0,
+        "riseProbability": 88.9,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 3일 연속순매수",
+          "완전 정배열",
+          "5·20 골든크로스"
+        ],
+        "dayCloseReturn": 2.2,
+        "dayHighReturn": 4.0,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "code": "279570",
+        "name": "케이뱅크",
+        "entryPrice": 5540.0,
+        "riseProbability": 88.7,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 3일 연속순매수",
+          "RSI 최적모멘텀(66.9)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 1.1,
+        "dayHighReturn": 2.9,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "code": "003490",
+        "name": "대한항공",
+        "entryPrice": 32050.0,
+        "riseProbability": 88.1,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 5일 연속순매수",
+          "RSI 최적모멘텀(63.6)",
+          "초대형 유동성"
+        ],
+        "dayCloseReturn": 0.9,
+        "dayHighReturn": 2.8,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "code": "089860",
+        "name": "롯데렌탈",
+        "entryPrice": 58500.0,
+        "riseProbability": 86.5,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 7일 연속순매수",
+          "완전 정배열",
+          "초강세 구간"
+        ],
+        "dayCloseReturn": 0.0,
+        "dayHighReturn": 1.8,
+        "hit": true
+      },
+      {
+        "rank": 5,
+        "code": "036460",
+        "name": "한국가스공사",
+        "entryPrice": 38100.0,
+        "riseProbability": 86.5,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 10일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(57.9)"
+        ],
+        "dayCloseReturn": -0.1,
+        "dayHighReturn": 1.7,
+        "hit": true
+      }
+    ],
+    "winRate": 80.0,
+    "avgHighReturn": 3.4
+  },
+  {
     "date": "2026-11-16",
     "recommends": [
       {
