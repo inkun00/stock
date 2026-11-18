@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-11-18",
+    "recommends": [
+      {
+        "rank": 1,
+        "code": "000080",
+        "name": "하이트진로",
+        "entryPrice": 16320.0,
+        "riseProbability": 86.8,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 4일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(59.4)"
+        ],
+        "dayCloseReturn": -0.5,
+        "dayHighReturn": 1.3,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "code": "0220W0",
+        "name": "한화머시너리앤서비스홀딩스",
+        "entryPrice": 7790.0,
+        "riseProbability": 85.5,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 10일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(52.9)"
+        ],
+        "dayCloseReturn": -0.1,
+        "dayHighReturn": 1.7,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "code": "180640",
+        "name": "한진칼",
+        "entryPrice": 219000.0,
+        "riseProbability": 85.0,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 5일 연속순매수",
+          "완전 정배열",
+          "초강세 구간"
+        ],
+        "dayCloseReturn": 1.9,
+        "dayHighReturn": 3.7,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "code": "000100",
+        "name": "유한양행",
+        "entryPrice": 80100.0,
+        "riseProbability": 85.0,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 4일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(51.7)"
+        ],
+        "dayCloseReturn": -3.6,
+        "dayHighReturn": 1.2,
+        "hit": true
+      },
+      {
+        "rank": 5,
+        "code": "036460",
+        "name": "한국가스공사",
+        "entryPrice": 38400.0,
+        "riseProbability": 85.0,
+        "tags": [
+          "외국인 순매수",
+          "수급 2일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(59.7)"
+        ],
+        "dayCloseReturn": 0.8,
+        "dayHighReturn": 2.6,
+        "hit": true
+      }
+    ],
+    "winRate": 80.0,
+    "avgHighReturn": 3.4
+  },
+  {
     "date": "2026-11-17",
     "recommends": [
       {
