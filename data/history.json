@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-11-19",
+    "recommends": [
+      {
+        "rank": 1,
+        "code": "034230",
+        "name": "파라다이스",
+        "entryPrice": 11670.0,
+        "riseProbability": 89.5,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 4일 연속순매수",
+          "완전 정배열",
+          "초강세 구간"
+        ],
+        "dayCloseReturn": 11.5,
+        "dayHighReturn": 13.3,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "code": "090430",
+        "name": "아모레퍼시픽",
+        "entryPrice": 140600.0,
+        "riseProbability": 88.1,
+        "tags": [
+          "기관 집중매수",
+          "수급 3일 연속순매수",
+          "RSI 최적모멘텀(62.8)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 7.6,
+        "dayHighReturn": 9.4,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "code": "008770",
+        "name": "호텔신라",
+        "entryPrice": 38700.0,
+        "riseProbability": 87.6,
+        "tags": [
+          "기관 집중매수",
+          "수급 3일 연속순매수",
+          "5·20 골든크로스",
+          "RSI 최적모멘텀(61.5)"
+        ],
+        "dayCloseReturn": 10.7,
+        "dayHighReturn": 12.5,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "code": "009450",
+        "name": "경동나비엔",
+        "entryPrice": 61200.0,
+        "riseProbability": 87.1,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 6일 연속순매수",
+          "RSI 최적모멘텀(55.3)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 0.2,
+        "dayHighReturn": 2.0,
+        "hit": true
+      },
+      {
+        "rank": 5,
+        "code": "089590",
+        "name": "제주항공",
+        "entryPrice": 8670.0,
+        "riseProbability": 86.8,
+        "tags": [
+          "기관 집중매수",
+          "수급 3일 연속순매수",
+          "완전 정배열",
+          "초강세 구간"
+        ],
+        "dayCloseReturn": 15.6,
+        "dayHighReturn": 17.4,
+        "hit": true
+      }
+    ],
+    "winRate": 80.0,
+    "avgHighReturn": 3.4
+  },
+  {
     "date": "2026-11-18",
     "recommends": [
       {
