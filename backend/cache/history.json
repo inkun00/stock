@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-11-24",
+    "recommends": [
+      {
+        "rank": 1,
+        "code": "003490",
+        "name": "대한항공",
+        "entryPrice": 31150.0,
+        "riseProbability": 86.3,
+        "tags": [
+          "기관 집중매수",
+          "수급 3일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(55.1)"
+        ],
+        "dayCloseReturn": 2.8,
+        "dayHighReturn": 4.6,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "code": "086280",
+        "name": "현대글로비스",
+        "entryPrice": 206500.0,
+        "riseProbability": 86.0,
+        "tags": [
+          "외국인 순매수",
+          "수급 4일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(57.3)"
+        ],
+        "dayCloseReturn": 8.6,
+        "dayHighReturn": 10.4,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "code": "012750",
+        "name": "에스원",
+        "entryPrice": 101800.0,
+        "riseProbability": 85.5,
+        "tags": [
+          "기관 집중매수",
+          "수급 3일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(59.0)"
+        ],
+        "dayCloseReturn": -1.2,
+        "dayHighReturn": 1.2,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "code": "002790",
+        "name": "아모레퍼시픽홀딩스",
+        "entryPrice": 28150.0,
+        "riseProbability": 85.5,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 3일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(62.2)"
+        ],
+        "dayCloseReturn": 2.9,
+        "dayHighReturn": 4.7,
+        "hit": true
+      },
+      {
+        "rank": 5,
+        "code": "020150",
+        "name": "롯데에너지머티리얼즈",
+        "entryPrice": 43150.0,
+        "riseProbability": 85.0,
+        "tags": [
+          "기관 집중매수",
+          "수급 6일 연속순매수",
+          "5·20 골든크로스",
+          "RSI 최적모멘텀(54.7)"
+        ],
+        "dayCloseReturn": 19.5,
+        "dayHighReturn": 21.3,
+        "hit": true
+      }
+    ],
+    "winRate": 80.0,
+    "avgHighReturn": 3.4
+  },
+  {
     "date": "2026-11-23",
     "recommends": [
       {
@@ -1651,81 +1738,5 @@
     ],
     "winRate": 80.0,
     "avgHighReturn": 3.4
-  },
-  {
-    "date": "2026-10-27",
-    "winRate": 80.0,
-    "avgHighReturn": 4.2,
-    "recommends": [
-      {
-        "rank": 1,
-        "code": "005930",
-        "name": "삼성전자",
-        "entryPrice": 213000,
-        "dayHighReturn": 5.6,
-        "dayCloseReturn": 5.63,
-        "riseProbability": 93.5,
-        "hit": true,
-        "tags": [
-          "외인·기관 양매수",
-          "완전 정배열"
-        ]
-      },
-      {
-        "rank": 2,
-        "code": "000660",
-        "name": "SK하이닉스",
-        "entryPrice": 182000,
-        "dayHighReturn": 4.1,
-        "dayCloseReturn": 3.2,
-        "riseProbability": 91.2,
-        "hit": true,
-        "tags": [
-          "거래량 폭증",
-          "5·20 골든크로스"
-        ]
-      },
-      {
-        "rank": 3,
-        "code": "035420",
-        "name": "NAVER",
-        "entryPrice": 178000,
-        "dayHighReturn": 3.8,
-        "dayCloseReturn": 2.1,
-        "riseProbability": 88.4,
-        "hit": true,
-        "tags": [
-          "외국인 순매수",
-          "눌림목 반등"
-        ]
-      },
-      {
-        "rank": 4,
-        "code": "005380",
-        "name": "현대차",
-        "entryPrice": 245000,
-        "dayHighReturn": 2.5,
-        "dayCloseReturn": 1.4,
-        "riseProbability": 85.0,
-        "hit": true,
-        "tags": [
-          "기관 집중매수",
-          "RSI 최적모멘텀"
-        ]
-      },
-      {
-        "rank": 5,
-        "code": "068270",
-        "name": "셀트리온",
-        "entryPrice": 194000,
-        "dayHighReturn": 1.2,
-        "dayCloseReturn": -0.5,
-        "riseProbability": 82.1,
-        "hit": false,
-        "tags": [
-          "신고가 돌파시도"
-        ]
-      }
-    ]
   }
 ]
