@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-11-25",
+    "recommends": [
+      {
+        "rank": 1,
+        "code": "090430",
+        "name": "아모레퍼시픽",
+        "entryPrice": 146100.0,
+        "riseProbability": 89.2,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 7일 연속순매수",
+          "RSI 최적모멘텀(64.7)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 4.5,
+        "dayHighReturn": 6.3,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "code": "278470",
+        "name": "에이피알",
+        "entryPrice": 291500.0,
+        "riseProbability": 88.1,
+        "tags": [
+          "기관 집중매수",
+          "수급 2일 연속순매수",
+          "5·20 골든크로스",
+          "RSI 최적모멘텀(56.6)"
+        ],
+        "dayCloseReturn": 10.6,
+        "dayHighReturn": 12.4,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "code": "002790",
+        "name": "아모레퍼시픽홀딩스",
+        "entryPrice": 29100.0,
+        "riseProbability": 88.1,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 4일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(66.6)"
+        ],
+        "dayCloseReturn": 3.4,
+        "dayHighReturn": 5.2,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "code": "323410",
+        "name": "카카오뱅크",
+        "entryPrice": 21800.0,
+        "riseProbability": 87.1,
+        "tags": [
+          "기관 집중매수",
+          "수급 8일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(64.0)"
+        ],
+        "dayCloseReturn": 2.4,
+        "dayHighReturn": 4.2,
+        "hit": true
+      },
+      {
+        "rank": 5,
+        "code": "377300",
+        "name": "카카오페이",
+        "entryPrice": 34800.0,
+        "riseProbability": 87.1,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 2일 연속순매수",
+          "RSI 최적모멘텀(52.4)",
+          "볼린저밴드 상단돌파"
+        ],
+        "dayCloseReturn": 0.6,
+        "dayHighReturn": 2.4,
+        "hit": true
+      }
+    ],
+    "winRate": 80.0,
+    "avgHighReturn": 3.4
+  },
+  {
     "date": "2026-11-24",
     "recommends": [
       {
@@ -1646,93 +1733,6 @@
         ],
         "dayCloseReturn": 2.9,
         "dayHighReturn": 4.7,
-        "hit": true
-      }
-    ],
-    "winRate": 80.0,
-    "avgHighReturn": 3.4
-  },
-  {
-    "date": "2026-10-28",
-    "recommends": [
-      {
-        "rank": 1,
-        "code": "028050",
-        "name": "삼성E&A",
-        "entryPrice": 63900.0,
-        "riseProbability": 88.9,
-        "tags": [
-          "외국인 순매수",
-          "수급 5일 연속순매수",
-          "완전 정배열",
-          "초강세 구간"
-        ],
-        "dayCloseReturn": 2.7,
-        "dayHighReturn": 4.5,
-        "hit": true
-      },
-      {
-        "rank": 2,
-        "code": "036460",
-        "name": "한국가스공사",
-        "entryPrice": 36950.0,
-        "riseProbability": 86.5,
-        "tags": [
-          "외인·기관 양매수",
-          "수급 4일 연속순매수",
-          "완전 정배열",
-          "RSI 최적모멘텀(58.5)"
-        ],
-        "dayCloseReturn": 1.0,
-        "dayHighReturn": 2.8,
-        "hit": true
-      },
-      {
-        "rank": 3,
-        "code": "003160",
-        "name": "디아이",
-        "entryPrice": 41650.0,
-        "riseProbability": 85.5,
-        "tags": [
-          "외인·기관 양매수",
-          "수급 5일 연속순매수",
-          "RSI 최적모멘텀(59.3)",
-          "거래량 217% 증가"
-        ],
-        "dayCloseReturn": 10.2,
-        "dayHighReturn": 12.0,
-        "hit": true
-      },
-      {
-        "rank": 4,
-        "code": "064400",
-        "name": "LG씨엔에스",
-        "entryPrice": 78300.0,
-        "riseProbability": 85.2,
-        "tags": [
-          "외인·기관 양매수",
-          "수급 7일 연속순매수",
-          "RSI 최적모멘텀(64.8)",
-          "볼린저밴드 상단돌파"
-        ],
-        "dayCloseReturn": 4.3,
-        "dayHighReturn": 6.1,
-        "hit": true
-      },
-      {
-        "rank": 5,
-        "code": "294870",
-        "name": "IPARK현대산업개발",
-        "entryPrice": 24450.0,
-        "riseProbability": 85.2,
-        "tags": [
-          "외인·기관 양매수",
-          "수급 3일 연속순매수",
-          "초강세 구간",
-          "볼린저밴드 상단돌파"
-        ],
-        "dayCloseReturn": 2.1,
-        "dayHighReturn": 3.9,
         "hit": true
       }
     ],
