@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-11-27",
+    "recommends": [
+      {
+        "rank": 1,
+        "code": "008930",
+        "name": "한미사이언스",
+        "entryPrice": 59000.0,
+        "riseProbability": 90.0,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 2일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(65.9)"
+        ],
+        "dayCloseReturn": 6.9,
+        "dayHighReturn": 8.7,
+        "hit": true
+      },
+      {
+        "rank": 2,
+        "code": "068270",
+        "name": "셀트리온",
+        "entryPrice": 222000.0,
+        "riseProbability": 88.7,
+        "tags": [
+          "기관 집중매수",
+          "수급 6일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(65.0)"
+        ],
+        "dayCloseReturn": 3.0,
+        "dayHighReturn": 4.8,
+        "hit": true
+      },
+      {
+        "rank": 3,
+        "code": "000100",
+        "name": "유한양행",
+        "entryPrice": 83500.0,
+        "riseProbability": 88.7,
+        "tags": [
+          "외인·기관 양매수",
+          "수급 3일 연속순매수",
+          "완전 정배열",
+          "RSI 최적모멘텀(58.0)"
+        ],
+        "dayCloseReturn": 1.7,
+        "dayHighReturn": 3.5,
+        "hit": true
+      },
+      {
+        "rank": 4,
+        "code": "326030",
+        "name": "SK바이오팜",
+        "entryPrice": 98700.0,
+        "riseProbability": 88.1,
+        "tags": [
+          "기관 집중매수",
+          "수급 10일 연속순매수",
+          "완전 정배열",
+          "초강세 구간"
+        ],
+        "dayCloseReturn": 9.1,
+        "dayHighReturn": 10.9,
+        "hit": true
+      },
+      {
+        "rank": 5,
+        "code": "039490",
+        "name": "키움증권",
+        "entryPrice": 233000.0,
+        "riseProbability": 87.6,
+        "tags": [
+          "기관 집중매수",
+          "수급 4일 연속순매수",
+          "5·20 골든크로스",
+          "RSI 최적모멘텀(63.1)"
+        ],
+        "dayCloseReturn": 14.2,
+        "dayHighReturn": 16.0,
+        "hit": true
+      }
+    ],
+    "winRate": 80.0,
+    "avgHighReturn": 3.4
+  },
+  {
     "date": "2026-11-26",
     "recommends": [
       {
@@ -1646,93 +1733,6 @@
         ],
         "dayCloseReturn": 4.8,
         "dayHighReturn": 6.6,
-        "hit": true
-      }
-    ],
-    "winRate": 80.0,
-    "avgHighReturn": 3.4
-  },
-  {
-    "date": "2026-10-30",
-    "recommends": [
-      {
-        "rank": 1,
-        "code": "271560",
-        "name": "오리온",
-        "entryPrice": 113800.0,
-        "riseProbability": 86.5,
-        "tags": [
-          "외인·기관 양매수",
-          "수급 3일 연속순매수",
-          "RSI 최적모멘텀(55.2)",
-          "볼린저밴드 상단돌파"
-        ],
-        "dayCloseReturn": 0.8,
-        "dayHighReturn": 2.6,
-        "hit": true
-      },
-      {
-        "rank": 2,
-        "code": "030190",
-        "name": "NICE평가정보",
-        "entryPrice": 17360.0,
-        "riseProbability": 85.8,
-        "tags": [
-          "외국인 순매수",
-          "수급 2일 연속순매수",
-          "완전 정배열",
-          "RSI 최적모멘텀(64.8)"
-        ],
-        "dayCloseReturn": 0.8,
-        "dayHighReturn": 2.6,
-        "hit": true
-      },
-      {
-        "rank": 3,
-        "code": "000080",
-        "name": "하이트진로",
-        "entryPrice": 15850.0,
-        "riseProbability": 85.5,
-        "tags": [
-          "외인·기관 양매수",
-          "수급 2일 연속순매수",
-          "완전 정배열",
-          "RSI 최적모멘텀(60.6)"
-        ],
-        "dayCloseReturn": 1.6,
-        "dayHighReturn": 3.4,
-        "hit": true
-      },
-      {
-        "rank": 4,
-        "code": "293940",
-        "name": "신한알파리츠",
-        "entryPrice": 5630.0,
-        "riseProbability": 85.2,
-        "tags": [
-          "외인·기관 양매수",
-          "수급 9일 연속순매수",
-          "완전 정배열",
-          "RSI 최적모멘텀(54.7)"
-        ],
-        "dayCloseReturn": -2.1,
-        "dayHighReturn": 1.2,
-        "hit": true
-      },
-      {
-        "rank": 5,
-        "code": "000810",
-        "name": "삼성화재",
-        "entryPrice": 645000.0,
-        "riseProbability": 85.0,
-        "tags": [
-          "외국인 순매수",
-          "수급 3일 연속순매수",
-          "RSI 최적모멘텀(58.1)",
-          "볼린저밴드 상단돌파"
-        ],
-        "dayCloseReturn": -0.9,
-        "dayHighReturn": 1.2,
         "hit": true
       }
     ],
